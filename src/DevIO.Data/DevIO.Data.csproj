@@ -5,7 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Repository\" />
+    <Compile Remove="Migrations\20210512225910_Initial.cs" />
+    <Compile Remove="Migrations\20210512225910_Initial.Designer.cs" />
   </ItemGroup>
 
   <ItemGroup>

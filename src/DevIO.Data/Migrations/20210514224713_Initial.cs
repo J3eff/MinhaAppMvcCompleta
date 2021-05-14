@@ -57,7 +57,8 @@ namespace DevIO.Data.Migrations
                     Descricao = table.Column<string>(type: "varchar(1000)", nullable: false),
                     Imagem = table.Column<string>(type: "varchar(200)", nullable: false),
                     Valor = table.Column<string>(type: "varchar(100)", nullable: true),
-                    DataCadastro = table.Column<bool>(nullable: false)
+                    DataCadastro = table.Column<DateTime>(nullable: false),
+                    Ativo = table.Column<bool>(nullable: false)
                 },
                 constraints: table =>
                 {

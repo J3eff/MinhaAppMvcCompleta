@@ -95,8 +95,11 @@ namespace DevIO.Data.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<bool>("DataCadastro")
+                    b.Property<bool>("Ativo")
                         .HasColumnType("bit");
+
+                    b.Property<DateTime>("DataCadastro")
+                        .HasColumnType("datetime2");
 
                     b.Property<string>("Descricao")
                         .IsRequired()
