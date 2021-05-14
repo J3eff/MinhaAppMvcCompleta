@@ -15,6 +15,7 @@
 - <a href="https://docs.microsoft.com/pt-br/ef/core/">EF Core 3.1</a>
 - <a href="https://docs.microsoft.com/pt-br/ef/ef6/modeling/code-first/fluent/types-and-properties">Fluent API</a>
 - <a href="https://docs.microsoft.com/pt-br/aspnet/mvc/overview/older-versions/getting-started-with-ef-5-using-mvc-4/implementing-the-repository-and-unit-of-work-patterns-in-an-asp-net-mvc-application">Patterns repository</a>
+- <a href="https://automapper.org/">AutoMapper</a>
 
 ## <p id='projeto'>💻 Projeto </p>
 - <p>Aplicação completa de cadastro de Fornecedores e Produtos</p>
