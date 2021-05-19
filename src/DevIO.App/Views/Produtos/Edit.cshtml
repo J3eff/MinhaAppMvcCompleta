@@ -15,7 +15,9 @@
             <input type="hidden" asp-for="Id" />
             <div class="form-group">
                 <label asp-for="FornecedorId" class="control-label"></label>
-                <select asp-for="FornecedorId" class="form-control" asp-items="ViewBag.FornecedorId"></select>
+                <select asp-for="FornecedorId" class="form-control" asp-items="@(new SelectList(Model.Fornecedores, "Id", "Nome"))">
+                    <option></option>
+                </select>
                 <span asp-validation-for="FornecedorId" class="text-danger"></span>
             </div>
             <div class="form-group">
@@ -44,7 +46,7 @@
                 </label>
             </div>
             <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
+                <input type="submit" value="Salvar" class="btn btn-primary" />
             </div>
         </form>
     </div>
