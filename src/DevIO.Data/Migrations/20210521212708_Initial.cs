@@ -56,7 +56,7 @@ namespace DevIO.Data.Migrations
                     Nome = table.Column<string>(type: "varchar(200)", nullable: false),
                     Descricao = table.Column<string>(type: "varchar(1000)", nullable: false),
                     Imagem = table.Column<string>(type: "varchar(200)", nullable: false),
-                    Valor = table.Column<string>(type: "varchar(100)", nullable: true),
+                    Valor = table.Column<decimal>(nullable: false),
                     DataCadastro = table.Column<DateTime>(nullable: false),
                     Ativo = table.Column<bool>(nullable: false)
                 },
