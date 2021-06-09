@@ -58,9 +58,10 @@ namespace DevIO.App
             {
                 app.UseExceptionHandler("/erro/500");
                 app.UseStatusCodePagesWithRedirects("/erro/{0}");
-                app.UseHsts();
+                //Implementação de segurança, ele força a seguir por uma conexão segura.
+                app.UseHsts(); // Adiciona Strict Transport Security dentro do meu hader 
             }
-            app.UseHttpsRedirection();
+            app.UseHttpsRedirection(); // Este e o Hsts redireciona de HTTP para HTTPS
             app.UseStaticFiles();
 
             app.UseRouting();
