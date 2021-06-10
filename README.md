@@ -1,5 +1,5 @@
 <h1 align="center">  
-  - Minha App Mvc Completa 🚀 
+  Minha App Mvc Completa 🚀 
 </h1>
 <p align="center">
   <a href='#tecnologies'>Tecnologias</a> •
